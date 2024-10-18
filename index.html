@@ -1,9 +1,207 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codecademy Cheat Sheet</title>
+  <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
 <body>
-  <h1>Ryan Finkelstein</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <header>
+        <h1>Codecademy Cheat Sheet</h1>
+    </header>
+    <div class="container">
+        <table>
+            <!--this is the header of the table-->
+            <thead>
+                <!--This is row 1-->
+                <tr class="tableheader">
+                    <th colspan="2">
+                        <h1 class="tableheader">Element</h1>
+                    </th>
+                </tr>
+                <!--This is row 2. It has two headers in it-->
+                <tr>
+                    <th class="left">
+                        <h2>Tag</h2>
+                    </th>
+                    <th>
+                        <h2>Description</h2>
+                    </th>
+                </tr>    
+            </thead>
+            <tablebody>
+                <tr>
+                    <td class="left">
+                        <h3>&lt &gt</h3>
+                    </td>
+                    <td>
+                        <h3>Where the opening tag goes</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>
+                            &lt/ &gt
+                        </h3>
+                    </td>
+                    <td>
+                        <h3>
+                            Where the closing tag goes
+                        </h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Content</h3>
+                    </td>
+                    <td>
+                        <h3>What goes between the opening and closing tags</h3>
+                    </td>
+                </tr>
+            </tablebody>
+        </table>
+    </div>
+    <div class="container">
+        <table>
+            <thead>
+                <tr class="tableheader">
+                    <th colspan="2">
+                        <h1>Tables</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="left">
+                        <h2>Tag</h2>
+                    </th>
+                    <th>
+                        <h2>Description</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tablebody>
+                <tr>
+                    <td>
+                        <h3>&lttable&gt</h3>
+                    </td>
+                    <td>
+                        <h3>Starting tag for table</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>&ltthead&gt</h3>
+                    </td>
+                    <td>
+                        <h3>
+                            Starting tag for the header of a table
+                        </h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>&lttablebody&gt</h3>
+                    </td>
+                    <td>
+                        <h3>Starting tag of a table body</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>&lttr&gt</h3>
+                    </td>
+                    <td>
+                        <h3>Starting tag for a table row</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>&lttd&gt</h3>
+                    </td>
+                    <td>
+                        <h3>Starting tag for table data</h3>
+                    </td>
+                </tr>
+            </tablebody>
+        </table>
+        
+    </div>
 
-</html>
+    <div class="container">
+        <table>
+            <thead>
+                <tr class="tableheader">
+                    <th colspan="3">
+                       <h1>Fundamentals of CSS</h1> 
+                    </th>
+                </tr>
+                <tr>
+                    <th class="left">
+                        <h2>Selector</h2>
+                    </th>
+                    <th>
+                        <h2> Description</h2>
+                    </th>
+                    <th>
+                        <h2>CSS Usage</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tablebody>
+                <tr>
+                    <td>
+                        <h3>
+                            p
+                        </h3>
+                    </td>
+                    <td>
+                        <h3>In this case p is the selector, but it can be h1, head, etc.</h3>
+                    </td>
+                    <td>
+                        <code>p {
+                            }
+                        </code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>*</h3>
+                    </td>
+                    <td>
+                        <h3>* is a universal selector. Effects everything on the page</h3>
+                    </td>
+                    <td>
+                        <code>*{
+                            }
+                        </code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Class</h3>
+                    </td>
+                    <td>
+                        <h3>If an html element has a class, ie: <code>&ltp&gt class='brand'>Sole Shoe Company &lt/p&gt</code> you can select that in CSS with a period</h3>
+                    </td>
+                    <td>
+                        <code>.brand {
+                            }
+                        </code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>ID</h3>
+                    </td>
+                    <td>
+                        <h3>If an HTML element needs to be styled uniquely, we can give it an ID using the id attribute. <div><code>&lth1 id='large-title'&gt</code></div> </h1></h3>
+                    </td>
+                    <td>
+                        <code>`#large-title { 
+                            }`
+                        </code>
+                    </td>
+                </tr>
+            </tablebody>
+        </table>
+</body>
